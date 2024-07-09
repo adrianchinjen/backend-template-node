@@ -196,12 +196,12 @@ Now, create a config on `package.json`
 ```
 
 Now, trythe following command
-```
+```shell
 git add .
 ```
 
 After that,
-```
+```shell
  git commit -m "Initial commit"
 ```
 
@@ -218,7 +218,7 @@ yarn add -D @commitlint/cli @commitlint/config-conventional
 ```
 
 Create a configuration file named `commitlint.config.js` and copy and paste the following configuration
-```
+```json
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
